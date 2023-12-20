@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'DCHelper'
-  s.version          = '0.0.6'
+  s.version          = '0.0.7'
   s.summary          = '项目基础模块'
   
   s.description      = <<-DESC
@@ -34,6 +34,13 @@ Pod::Spec.new do |s|
   s.dependency 'SDCycleScrollView','>= 1.82'
   s.dependency 'FCUUID'
   
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64 armv7 arm64',
+    'VALID_ARCHS' => 'x86_64 armv7 arm64',
+  }
+  s.user_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64 armv7 arm64',
+    'VALID_ARCHS' => 'x86_64 armv7 arm64',
+  }
+  
 end
