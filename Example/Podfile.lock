@@ -1,0 +1,158 @@
+PODS:
+  - Adjust (4.33.6):
+    - Adjust/Core (= 4.33.6)
+  - Adjust/Core (4.33.6)
+  - Alamofire (5.8.1)
+  - BRPickerView (2.8.1):
+    - BRPickerView/AddressPickerView (= 2.8.1)
+    - BRPickerView/Base (= 2.8.1)
+    - BRPickerView/DatePickerView (= 2.8.1)
+    - BRPickerView/StringPickerView (= 2.8.1)
+  - BRPickerView/AddressPickerView (2.8.1):
+    - BRPickerView/Base
+  - BRPickerView/Base (2.8.1)
+  - BRPickerView/DatePickerView (2.8.1):
+    - BRPickerView/Base
+  - BRPickerView/StringPickerView (2.8.1):
+    - BRPickerView/Base
+  - DCHelper (0.0.3):
+    - Adjust (~> 4.33.3)
+    - Alamofire
+    - BRPickerView
+    - DCHelper/Models (= 0.0.3)
+    - DCHelper/NetWorking (= 0.0.3)
+    - DCHelper/Tools (= 0.0.3)
+    - FCUUID
+    - FWPopupView
+    - HandyJSON (~> 5.0.2)
+    - IQKeyboardManagerSwift
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SDCycleScrollView (>= 1.82)
+    - SDWebImage
+    - SnapKit
+    - SystemServices
+    - TangramKit
+    - "UITextView+Placeholder"
+  - DCHelper/Models (0.0.3):
+    - Adjust (~> 4.33.3)
+    - Alamofire
+    - BRPickerView
+    - FCUUID
+    - FWPopupView
+    - HandyJSON (~> 5.0.2)
+    - IQKeyboardManagerSwift
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SDCycleScrollView (>= 1.82)
+    - SDWebImage
+    - SnapKit
+    - SystemServices
+    - TangramKit
+    - "UITextView+Placeholder"
+  - DCHelper/NetWorking (0.0.3):
+    - Adjust (~> 4.33.3)
+    - Alamofire
+    - BRPickerView
+    - FCUUID
+    - FWPopupView
+    - HandyJSON (~> 5.0.2)
+    - IQKeyboardManagerSwift
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SDCycleScrollView (>= 1.82)
+    - SDWebImage
+    - SnapKit
+    - SystemServices
+    - TangramKit
+    - "UITextView+Placeholder"
+  - DCHelper/Tools (0.0.3):
+    - Adjust (~> 4.33.3)
+    - Alamofire
+    - BRPickerView
+    - FCUUID
+    - FWPopupView
+    - HandyJSON (~> 5.0.2)
+    - IQKeyboardManagerSwift
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SDCycleScrollView (>= 1.82)
+    - SDWebImage
+    - SnapKit
+    - SystemServices
+    - TangramKit
+    - "UITextView+Placeholder"
+  - FCUUID (1.3.1):
+    - UICKeyChainStore (~> 2.1.0)
+  - FWPopupView (4.2.1):
+    - SnapKit
+  - HandyJSON (5.0.2)
+  - IQKeyboardManagerSwift (6.5.11)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.7.6)
+  - SDCycleScrollView (1.82):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.18.7):
+    - SDWebImage/Core (= 5.18.7)
+  - SDWebImage/Core (5.18.7)
+  - SnapKit (5.6.0)
+  - SystemServices (2.0.1)
+  - TangramKit (1.4.2)
+  - UICKeyChainStore (2.1.2)
+  - "UITextView+Placeholder (1.4.0)"
+
+DEPENDENCIES:
+  - DCHelper (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Adjust
+    - Alamofire
+    - BRPickerView
+    - FCUUID
+    - FWPopupView
+    - HandyJSON
+    - IQKeyboardManagerSwift
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SDCycleScrollView
+    - SDWebImage
+    - SnapKit
+    - SystemServices
+    - TangramKit
+    - UICKeyChainStore
+    - "UITextView+Placeholder"
+
+EXTERNAL SOURCES:
+  DCHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Adjust: c3b6c3734928a617fefce81dc223fd5f104162be
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  BRPickerView: 2531a2d4d0fea0b57a1c738de215af0f88863a2f
+  DCHelper: dbe51b0680109532bff6f92529e89268142e100e
+  FCUUID: bb054fc90cd7cd99320f9f6ff8e130fe607fba05
+  FWPopupView: eea10388d25444fbe69b9222a5b5f317bb049395
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 2fe7fb43a5167ceda20bb7e63f130c04fd1814a5
+  SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
+  SDWebImage: f9258c58221ed854cfa0e2b80ee4033710b1c6d3
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SystemServices: 7af348493ece8951449b476c41532df72569b181
+  TangramKit: aad3ab8f9617418c9da96d59cddd71134ae8af83
+  UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
+  "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
+
+PODFILE CHECKSUM: 2d73f241bb76b576ad63414caedc8bbadbbf0566
+
+COCOAPODS: 1.12.1

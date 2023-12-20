@@ -1,0 +1,88 @@
+{
+  "name": "DCHelper",
+  "version": "0.0.3",
+  "summary": "项目基础模块",
+  "description": "项目基础模块",
+  "homepage": "https://github.com/DCHelper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Lanhaoo": "lanhao_dev@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Lanhaoo/UIModule.git",
+    "tag": "0.0.3"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "swift_versions": "5.0",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "HandyJSON": [
+      "~> 5.0.2"
+    ],
+    "TangramKit": [
+
+    ],
+    "SnapKit": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "IQKeyboardManagerSwift": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "Adjust": [
+      "~> 4.33.3"
+    ],
+    "SystemServices": [
+
+    ],
+    "FWPopupView": [
+
+    ],
+    "BRPickerView": [
+
+    ],
+    "UITextView+Placeholder": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "Alamofire": [
+
+    ],
+    "SDCycleScrollView": [
+      ">= 1.82"
+    ],
+    "FCUUID": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Models",
+      "source_files": "DCHelper/Classes/Models/*"
+    },
+    {
+      "name": "Tools",
+      "source_files": "DCHelper/Classes/Tools/*"
+    },
+    {
+      "name": "NetWorking",
+      "source_files": "DCHelper/Classes/NetWorking/*"
+    }
+  ],
+  "swift_version": "5.0"
+}
