@@ -1,9 +1,9 @@
 {
   "name": "DCHelper",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "summary": "项目基础模块",
   "description": "项目基础模块",
-  "homepage": "https://github.com/DCHelper",
+  "homepage": "https://github.com/Lanhaoo/DCHelper",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "Lanhaoo": "lanhao_dev@163.com"
   },
   "source": {
-    "git": "https://github.com/Lanhaoo/UIModule.git",
-    "tag": "0.0.3"
+    "git": "https://github.com/Lanhaoo/DCHelper.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "9.0"
@@ -73,15 +73,15 @@
   "subspecs": [
     {
       "name": "Models",
-      "source_files": "DCHelper/Classes/Models/*"
+      "source_files": "DCHelper/**/Models/*"
     },
     {
       "name": "Tools",
-      "source_files": "DCHelper/Classes/Tools/*"
+      "source_files": "DCHelper/**/Tools/*"
     },
     {
       "name": "NetWorking",
-      "source_files": "DCHelper/Classes/NetWorking/*"
+      "source_files": "DCHelper/**/NetWorking/*"
     }
   ],
   "swift_version": "5.0"
