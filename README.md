@@ -1,6 +1,6 @@
 # DCHelper
 
-[![CI Status](https://img.shields.io/travis/熊兵/DCHelper.svg?style=flat)](https://travis-ci.org/熊兵/DCHelper)
+[![CI Status](https://img.shields.io/travis/Lanhao/DCHelper.svg?style=flat)](https://travis-ci.org/Lanhao/DCHelper)
 [![Version](https://img.shields.io/cocoapods/v/DCHelper.svg?style=flat)](https://cocoapods.org/pods/DCHelper)
 [![License](https://img.shields.io/cocoapods/l/DCHelper.svg?style=flat)](https://cocoapods.org/pods/DCHelper)
 [![Platform](https://img.shields.io/cocoapods/p/DCHelper.svg?style=flat)](https://cocoapods.org/pods/DCHelper)
@@ -22,7 +22,7 @@ pod 'DCHelper'
 
 ## Author
 
-熊兵, xiobg@icloud.com
+Lanhao, lanhao_dev@163.com
 
 ## License
 
