@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'DCHelper'
-    s.version          = '0.0.2'
+    s.version          = '0.0.3'
     s.summary          = '项目基础模块'
 
     s.description      = <<-DESC
@@ -17,15 +17,15 @@ Pod::Spec.new do |s|
     s.swift_version    = '5.0'
 
     s.subspec 'Models' do |models|
-        models.source_files = 'DCHelper/**/Models/*'
+        models.source_files = 'DCHelper/Models/*'
         end
         
     s.subspec 'Tools' do |tools|
-        tools.source_files = 'DCHelper/**/Tools/*'
+        tools.source_files = 'DCHelper/Tools/*'
         end
         
     s.subspec 'NetWorking' do |netWorking|
-        netWorking.source_files = 'DCHelper/**/NetWorking/*'
+        netWorking.source_files = 'DCHelper/NetWorking/*'
         end
 
     s.frameworks = 'UIKit'
