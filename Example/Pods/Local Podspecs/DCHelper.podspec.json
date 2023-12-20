@@ -1,6 +1,6 @@
 {
   "name": "DCHelper",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "summary": "项目基础模块",
   "description": "项目基础模块",
   "homepage": "https://github.com/Lanhaoo/DCHelper",
@@ -13,12 +13,13 @@
   },
   "source": {
     "git": "https://github.com/Lanhaoo/DCHelper.git",
-    "tag": "0.0.2"
+    "tag": "0.0.3"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "12.0"
   },
   "swift_versions": "5.0",
+  "source_files": "DCHelper/**/*",
   "frameworks": "UIKit",
   "dependencies": {
     "HandyJSON": [
@@ -70,19 +71,5 @@
 
     ]
   },
-  "subspecs": [
-    {
-      "name": "Models",
-      "source_files": "DCHelper/Models/*"
-    },
-    {
-      "name": "Tools",
-      "source_files": "DCHelper/Tools/*"
-    },
-    {
-      "name": "NetWorking",
-      "source_files": "DCHelper/NetWorking/*"
-    }
-  ],
   "swift_version": "5.0"
 }

@@ -15,61 +15,7 @@ PODS:
     - BRPickerView/Base
   - BRPickerView/StringPickerView (2.8.1):
     - BRPickerView/Base
-  - DCHelper (0.0.2):
-    - Adjust (~> 4.33.3)
-    - Alamofire
-    - BRPickerView
-    - DCHelper/Models (= 0.0.2)
-    - DCHelper/NetWorking (= 0.0.2)
-    - DCHelper/Tools (= 0.0.2)
-    - FCUUID
-    - FWPopupView
-    - HandyJSON (~> 5.0.2)
-    - IQKeyboardManagerSwift
-    - Masonry
-    - MBProgressHUD
-    - MJRefresh
-    - SDCycleScrollView (>= 1.82)
-    - SDWebImage
-    - SnapKit
-    - SystemServices
-    - TangramKit
-    - "UITextView+Placeholder"
-  - DCHelper/Models (0.0.2):
-    - Adjust (~> 4.33.3)
-    - Alamofire
-    - BRPickerView
-    - FCUUID
-    - FWPopupView
-    - HandyJSON (~> 5.0.2)
-    - IQKeyboardManagerSwift
-    - Masonry
-    - MBProgressHUD
-    - MJRefresh
-    - SDCycleScrollView (>= 1.82)
-    - SDWebImage
-    - SnapKit
-    - SystemServices
-    - TangramKit
-    - "UITextView+Placeholder"
-  - DCHelper/NetWorking (0.0.2):
-    - Adjust (~> 4.33.3)
-    - Alamofire
-    - BRPickerView
-    - FCUUID
-    - FWPopupView
-    - HandyJSON (~> 5.0.2)
-    - IQKeyboardManagerSwift
-    - Masonry
-    - MBProgressHUD
-    - MJRefresh
-    - SDCycleScrollView (>= 1.82)
-    - SDWebImage
-    - SnapKit
-    - SystemServices
-    - TangramKit
-    - "UITextView+Placeholder"
-  - DCHelper/Tools (0.0.2):
+  - DCHelper (0.0.3):
     - Adjust (~> 4.33.3)
     - Alamofire
     - BRPickerView
@@ -137,7 +83,7 @@ SPEC CHECKSUMS:
   Adjust: c3b6c3734928a617fefce81dc223fd5f104162be
   Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
   BRPickerView: 2531a2d4d0fea0b57a1c738de215af0f88863a2f
-  DCHelper: 6c5c1166a2bd2127c00b53d47f0fc2f05caa02db
+  DCHelper: 05520a7d8dfd5a9c82f1b876a231315385b4b591
   FCUUID: bb054fc90cd7cd99320f9f6ff8e130fe607fba05
   FWPopupView: eea10388d25444fbe69b9222a5b5f317bb049395
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
