@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'DCHelper'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = '项目基础模块'
   
   s.description      = <<-DESC
@@ -27,10 +27,12 @@ Pod::Spec.new do |s|
   s.dependency 'SystemServices'
   s.dependency 'FWPopupView'
   s.dependency 'BRPickerView'
-  s.dependency 'UITextView+Placeholder'
+#  s.dependency 'UITextView+Placeholder'
   s.dependency 'MJRefresh'
   s.dependency 'SDWebImage'
   s.dependency 'Alamofire'
   s.dependency 'SDCycleScrollView','>= 1.82'
   s.dependency 'FCUUID'
+  
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
