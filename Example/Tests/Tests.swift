@@ -1,5 +1,5 @@
 import XCTest
-
+import DCHelper
 class Tests: XCTestCase {
     
     override func setUp() {
